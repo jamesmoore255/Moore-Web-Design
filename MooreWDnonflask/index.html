@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<link rel="stylesheet" href="CSS/app.css?v=1">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="grid" id="top">
+			<div class="flex-container">
+				<img src="img/logo-desk.png" id="logo-desk">
+				<img  src="img/logo-desk.png" alt="MWD" id="logo-mobile">
+			</div>
+			<div id="titles">
+				<div class="flex-containerT">
+					<h1 id="title">Moore Web Design</h1>
+				</div>
+				<div class="flex-containerST">
+					<h6 id="subtitle">Smart and Responsive</h6>
+				</div>
+			</div>
+		</div>
+		<div class="flex-containerST-tab">
+			<h6 id="subtitle-tab">Smart and Responsive</h6>
+		</div>
+		<ul class="grid-3">
+			<li><a id="nav" href="#top">Home</a></li>
+			<li><a id="nav" href="#about">About</a></li>
+			<li><a id="nav" href="#">Blog</a></li>
+			<li><a id="nav" href="#contact">Contact</a></li>
+		</ul>
+		
+	</header>
+
+	<main>
+		<div class="grid-1">
+			<div id="about">
+				<h2 id="about-title">About</h2>
+				<ul>
+					<li id="about-p">I am a passionate web developer who will work with you from start to finish, consider every idea you, the customer has, and I will not stop working until we are both satisfied with the finish product.</li>
+					<li id="about-p">All designs are made in house, building a credible logo for you business and taking special care with delivering a responsive website, one that will professionally present your brand on any format.</li>
+					<li id="about-p">Finally I will continue to maintain the domain and update any desired changes as the website grows with your business needs.</li>
+				</ul>
+			</div>
+			<div id="mobile">
+				<i class="fas fa-mobile"></i>
+			</div>
+			<div id="arrowR">
+				<i class="fas fa-angle-double-right"></i>
+			</div>
+			<div id="tablet">
+				<i class="fas fa-tablet"></i>
+			</div>
+			<div id="arrowL">
+				<i class="fas fa-angle-double-left"></i>
+			</div>
+			<div id="desktopI">
+				<i class="fas fa-desktop"></i>
+			</div>
+		</div>
+		<div class="special">
+			<div id="special">
+				<h2>Specializations: </h2>
+			</div>
+
+			<div id="mobile-special">
+				<div class="grid-2">
+					<div>
+						<i class="fab fa-python fa-3x" id="python"></i>
+					</div>
+					<div>
+						<i class="fab fa-html5 fa-3x" id="html5"></i>
+					</div>
+					<div>
+						<i class="fab fa-css3 fa-3x" id="css"></i>
+					</div>
+				</div>
+
+				<div class="grid-2">
+					<p>Python</p>
+					<p>HTML5</p>
+					<p>CSS3</p>
+				</div>
+				
+				<div class="grid-2">
+					<div>
+						<i class="fab fa-js fa-3x" id="JS"></i>
+					</div>
+					<div>
+						<i class="fab fa-wordpress fa-3x" id="wordpress"></i>
+					</div>
+					<div>
+						<i class="far fa-edit fa-3x" id="ai"></i>
+					</div>
+				</div>
+				
+				<div class="grid-2">
+					<p>JavaScript</p>
+					<p>WordPress</p>
+					<p>Adobe Illustrator</p>
+				</div>
+			</div>
+			<div id="desk-special">
+				<div class="grid-2">
+					<div>
+						<i class="fab fa-python fa-3x" id="python"></i>
+					</div>
+					<div>
+						<i class="fab fa-html5 fa-3x" id="html5"></i>
+					</div>
+					<div>
+						<i class="fab fa-css3 fa-3x" id="css"></i>
+					</div>
+					<div>
+						<i class="fab fa-js fa-3x" id="JS"></i>
+					</div>
+					<div>
+						<i class="fab fa-wordpress fa-3x" id="wordpress"></i>
+					</div>
+					<div>
+						<i class="far fa-edit fa-3x" id="ai"></i>
+					</div>
+				</div>
+
+				<div class="grid-2">
+					<p>Python</p>
+					<p>HTML5</p>
+					<p>CSS3</p>
+					<p>JavaScript</p>
+					<p>WordPress</p>
+					<p>Adobe Illustrator</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div id="contact">
+		<h2 id="contact-heading">Need a website made?</h2>
+		<h3 id="contact-subheading">Fill out the form and you&apos;ll hear from us in 1-2 business days.</h3>
+	</div>
+
+	<div id="form-messages"></div>
+
+	<form class="form" method="post" name="contact" id="form-small">
+		<input type="text" id="name" name="name" value="Your name"><br>
+		<input type="text" id="company-name" name="company-name" value="Your company name"><br>
+		<input type="text" id="email" name="email" value="Your e-mail address"><br>
+		<input type="text" id="budget" name="budget" value="Budget"><br>
+		<div id="textarea">
+			<textarea name="description" id="description" placeholder="Tell us about your project..."></textarea>
+		</div>
+		<input type="submit" id="submit" value="submit">
+	</form>
+
+	<form class="form" method="post" name="contact" id="form-large"> 
+		<input type="text" id="name" name="name" placeholder="Your name">
+		<input type="text" id="company-name" name="company-name" placeholder="Your company name"><br>
+		<input type="text" id="email" name="email" placeholder="Your e-mail address">
+		<input type="text" id="budget" name="budget" placeholder="Budget"><br>
+		<div id="textarea">
+			<textarea name="description" id="description" placeholder="Tell us about your project..."></textarea>
+		</div>
+		<input type="submit" id="submit" value="submit">
+	</form>
+
+	
+</main>
+
+<footer>
+	<div class="gridF">
+		<a id="icon" href="https://twitter.com/Moore_WebDesign"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a>
+	<a id="icon" href="https://www.linkedin.com/in/moorewebdes55"><i class="fab fa-linkedin-in fa-lg" aria-hidden="true"></i></a>
+	<a id="icon" href="#"><i class="fab fa-blogger-b fa-lg"></i></a>
+		
+	<p id="pmwd">Moore Web Design</p>
+		<!-- <a id="portfolio" href="#"><i class="fa fa-briefcase fa-lg" aria-hidden="true"></i></a> -->
+	</div>
+	</footer>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="app.js?v=1"></script>
+</body>
+</html>
